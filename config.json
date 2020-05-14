@@ -1,0 +1,7 @@
+{
+    "token" : "YOUR DISCORD APP TOKEN",
+	"adminID" : "YOUR DISCORD USER ID",
+	"youtube_api_key" : "YOUR YOUTUBE API KEY",
+    "prefix" : "!",
+	"passes" : 1
+}

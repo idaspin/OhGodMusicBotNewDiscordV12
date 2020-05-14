@@ -1,31 +1,34 @@
 # OhGodMusicBot
-A v10 Discord.JS music bot in 100 lines or less
+A v12 Discord.JS music bot in 140 lines with Search
+> Пример музыкального бота с поиском по YouTube для Discord.js версии 12
+> Подробное описание работы в видео по ссылке: [Музыкальный бот Discord.js](https://youtu.be/MSOtiOMe4JE)
 
 ## Installation (Windows)
 
 This section is for running the bot locally on Windows. If you're on Mac it should be similar. I'll assume Linux users can figure it out.
+> Установка Windows: если запускаешь бота локально со своего компьютера. Инструкция более менее идентична как для Windows, так и для Мака и Linux.
 
 ### Download Node.js
 
 Node.js is what will be used to run the bot.
-Download [Node.js 6.X from the website](https://nodejs.org/en/).
+Download [Node.js 14.X from the website](https://nodejs.org/en/).
+> Необходима установленная Node.js версии 12+
 
 ### Install Node.js
 
 Open the Node.js Setup.
 In the options, make sure `Node.js runtime` `npm package manager` and `Add to PATH` are enabled. After that install Node.js.
-
-### Install Windows-Build-Tools
-
-Open up a windows powershell and run `npm i -g windows-build-tools`. This will take a while as it will download and install both python 2.7 and c++ build tools, so you can run node-gyp builds.
+> Установка ноды. Убедись, что установлен NPM, а сама нода добавлена в переменную среды ОС.
 
 ### Download Git
 
 And install it. The website is http://git-scm.com and make sure you choose "for command prompt".
+> Установи git и клонируй проект.
 
 ### Download FFMPEG
 
 Download FFMPEG from [this website](https://ffmpeg.zeranoe.com/builds/). Make sure to find the current **Static Build** for your OS Architecture (32bit/64bit).
+> Установи глобально FFMPEG (гугл в помощь).
 
 ### Install & Configure FFMPEG
 
@@ -64,7 +67,12 @@ In the command prompt type `npm install`.
 The bot should now be ready!
 Open a command prompt like above and type `npm start` to start the bot and see if it works.
 
+> Далее тебе следует пройти по инструкции из видео [Музыкальный бот Discord.js](https://youtu.be/MSOtiOMe4JE)
+> Если не умеешь запускать бота посмотри это видео [Как отслеживать события Discord.JS](https://youtu.be/LsJ7zkVepMc)
+
 ### Install dependencies
+
+> Установи модули вроде `discord.js`, `ytdl-core` итп.
 
 **Windows**
 
